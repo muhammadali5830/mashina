@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .navbar {
+  width: 100%;
+  height: 886px;
+  background: url("../img/pexels-photo-3136673.jpeg") center/cover no-repeat;
+}
+body .navbar .border-white {
+  width: 100%;
+  height: 75px;
+  border: 1px solid #fff;
+  border-top: none;
+}
+body .navbar .border-white .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+body .navbar .border-white .search svg {
+  cursor: pointer;
+}
+body .navbar .border-white .search .search1 {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+body .navbar .border-white .search .search1 input {
+  width: 184px;
+  height: 38px;
+  background: transparent;
+  border: 2px solid #999;
+  border-right: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+body .navbar .border-white .search .search1 input::-moz-placeholder {
+  color: #999;
+}
+body .navbar .border-white .search .search1 input::placeholder {
+  color: #999;
+}
+body .navbar .border-white .search .search1 input:focus {
+  outline: none;
+}
+body .navbar .border-white .search .search1 .svg1 {
+  width: 36px;
+  height: 38px;
+  border: 2px solid #999;
+  border-left: none;
+  padding: 8px;
+}
+body .navbar .mashina-section .white-text {
+  width: 1126px;
+  margin-top: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+body .navbar .mashina-section .white-text h1 {
+  width: 1000px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+body .navbar .mashina-section .white-text .p1 {
+  width: 930px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+body .navbar .mashina-section .white-text h5 {
+  width: 930px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+body .navbar .mashina-section .white-text img {
+  margin-top: 40px;
+}
+body .black-section {
+  width: 100%;
+  height: 669px;
+  background: #000;
+}
+body .black-section h2 {
+  padding-top: 120px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+body .black-section .p2 {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+body .black-section .pages1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+body .black-section .pages1 .people {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+body .black-section .pages1 .people img {
+  width: 100%;
+  max-width: 104px;
+}
+body .black-section .pages1 .people h2 {
+  padding-top: 30px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+body .black-section .pages1 .people p {
+  width: 320px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999;
+}
+body .black-section .pages1 .people button {
+  margin-top: 25px;
+  padding: 12px 35px;
+  border: 2px solid #f17c0e;
+  cursor: pointer;
+  border-radius: 50px;
+  background: transparent;
+  color: #f17c0e;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+body .black-section .pages1 .people button:hover {
+  background: #f17c0e;
+  color: #fff;
+}
+body .car-section {
+  width: 100%;
+  height: 984px;
+  background-color: #000;
+}
+body .car-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .car-section .container .text-finding {
+  padding-top: 100px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .car-section .container .text-finding .text-black {
+  width: 50%;
+  max-width: 570px;
+  height: 564px;
+  padding: 0 50px 0 0;
+}
+body .car-section .container .text-finding .text-black h2 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+body .car-section .container .text-finding .text-black p {
+  width: 510px;
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+body .car-section .container .text-finding .yellow-text {
+  width: 50%;
+  max-width: 570px;
+  height: 564px;
+  padding: 120px 50px 0 35px;
+  background-color: #f17c0e;
+}
+body .car-section .container .text-finding .yellow-text h3 {
+  width: 300px;
+  font-weight: 700;
+}
+body .car-section .container .text-finding .yellow-text ol {
+  width: 520px;
+  padding: 0 0 0 20px;
+}
+body .car-section .container .text-finding .yellow-text ol li {
+  font-size: 16px;
+  margin-top: 30px;
+}
+body .car-section .container .img-findingh {
+  margin-top: 30px;
+  width: 1140px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 40px;
+}
+body .car-section .container .img-findingh .img1 {
+  width: 373px;
+  height: 240px;
+  background-image: url("../img/pexels-photo-1231643.jpeg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s;
+}
+body .car-section .container .img-findingh .img1:hover {
+  opacity: 0.8;
+}
+body .car-section .container .img-findingh .img2 {
+  width: 373px;
+  height: 240px;
+  background-image: url("../img/pexels-photo-1586141.jpeg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s;
+}
+body .car-section .container .img-findingh .img2:hover {
+  opacity: 0.8;
+}
+body .car-section .container .img-findingh .img3 {
+  width: 373px;
+  height: 240px;
+  background-image: url("../img/pexels-photo-3136673.jpeg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s;
+}
+body .car-section .container .img-findingh .img3:hover {
+  opacity: 0.8;
+}
+body .text-section {
+  width: 100%;
+  height: 462px;
+  background-color: #000;
+}
+body .text-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .text-section .container h1 {
+  padding: 80px;
+  width: 800px;
+  color: #fff;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+body .text-section .container p {
+  margin-top: 70px;
+  text-align: end;
+  color: #fff;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+body .text-section .container p span {
+  color: #f17c0e;
+}
+body .best-section {
+  width: 100%;
+  height: 730px;
+  background-color: #000;
+}
+body .best-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .best-section .container .text-looked {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 1px;
+}
+body .best-section .container .text-looked .best-text {
+  width: 50%;
+  max-width: 570px;
+  height: 610px;
+  color: #fff;
+  margin-top: 120px;
+}
+body .best-section .container .text-looked .best-text h1 {
+  width: 510px;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+body .best-section .container .text-looked .best-text .p-decaracein {
+  margin-top: 20px;
+  width: 510px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+body .best-section .container .text-looked .best-text .yellow-p {
+  margin-top: 30px;
+  width: 510px;
+  height: 158px;
+  background-color: #f17c0e;
+  padding: 10px 10px 30px 10px;
+  line-height: 25px;
+}
+body .best-section .container .text-looked .best-text .p-section {
+  width: 510px;
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+body .best-section .container .text-looked .best-img {
+  width: 50%;
+  max-width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  background-image: url("../img/pexels-photo-1231643.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+body .faq-section {
+  width: 100%;
+  height: 800px;
+  background-color: #000;
+}
+body .faq-section .container h1 {
+  padding-top: 140px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+body .faq-section .container p {
+  text-align: center;
+  color: #fff;
+  margin-top: 25px;
+}
+body .faq-section .container .parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  margin-top: 20px;
+}
+body .faq-section .container .parent div {
+  margin-top: 30px;
+  border-bottom: 1px solid #999;
+  padding: 20px 30px;
+  width: 891px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .faq-section .container .parent div svg {
+  color: #fff;
+}
+body .faq-section .container .parent div h2 {
+  font-size: 16px;
+}
+body .safe-section {
+  width: 100%;
+  height: 462px;
+  background-color: #000;
+}
+body .safe-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .safe-section .container .img {
+  width: 760px;
+  height: 402px;
+  background-image: url(../img/mashina.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+body .safe-section .container .text-white {
+  padding: 100px 30px 10px 120px;
+  width: 390px;
+  height: 402px;
+  color: white;
+  text-align: end;
+}
+body .safe-section .container .text-white p {
+  font-size: 56px;
+  font-family: "Roboto", sans-serif;
+}
+body .tempor-section {
+  width: 100%;
+  height: 650px;
+  background: #000;
+  padding: 110px 0;
+}
+body .tempor-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .tempor-section .container .contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+body .tempor-section .container .contact-text .talk {
+  width: 50%;
+  color: #fff;
+}
+body .tempor-section .container .contact-text .talk p:first-child {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+body .tempor-section .container .contact-text .talk h2 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+body .tempor-section .container .contact-text .talk p {
+  width: 490px;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+body .tempor-section .container .contact-text .input {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+body .tempor-section .container .contact-text .input input,
+body .tempor-section .container .contact-text .input textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  padding: 18px 0;
+  margin-bottom: 15px;
+}
+body .tempor-section .container .contact-text .input textarea {
+  height: 130px;
+  resize: none;
+}
+body .tempor-section .container .contact-text .input button {
+  width: 124px;
+  height: 48px;
+  margin-top: 10px;
+  border: 2px solid #f17c0e;
+  border-radius: 50px;
+  background: transparent;
+  color: #f17c0e;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .tempor-section .container .contact-text .input button:hover {
+  background: #f17c0e;
+  border: 2px solid white;
+}
+body .tempor-section .container .contact-text .input .input-svg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+body .tempor-section .container .contact-text .input .input-svg svg {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+body .tempor-section .container .contact-text .input .input-svg svg:hover {
+  color: red;
+}
+body .footer {
+  width: 100%;
+  height: 250px;
+  background-color: #333333;
+}
+body .footer .container-p {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+body .footer .container-a {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+body .footer .container-a a {
+  cursor: pointer;
+  color: #ffd600;
+}
+body .footer .container-a a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
